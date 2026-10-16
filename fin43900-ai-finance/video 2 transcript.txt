@@ -1,0 +1,315 @@
+1
+00:00:00,070 --> 00:00:03,008
+Here is my video 2 on code and
+
+2
+00:00:03,008 --> 00:00:05,212
+validation walkthrough. So for the first
+
+3
+00:00:05,212 --> 00:00:07,415
+document I'm on the README. This
+
+4
+00:00:07,415 --> 00:00:09,986
+repository answers one question for a buy
+
+5
+00:00:09,986 --> 00:00:11,823
+side investment committee. Should it
+
+6
+00:00:11,823 --> 00:00:14,026
+initiate anf, Abercrombie and Fitch watch
+
+7
+00:00:14,026 --> 00:00:16,597
+and defer or not initiate? The final
+
+8
+00:00:16,597 --> 00:00:18,801
+recommendation is watch, defer and the
+
+9
+00:00:18,801 --> 00:00:21,739
+main model is anfproject py. It has no
+
+10
+00:00:21,739 --> 00:00:23,943
+package dependencies and runs with Python
+
+11
+00:00:23,943 --> 00:00:26,530
+3. So here is
+
+12
+00:00:26,530 --> 00:00:29,308
+the. Anf
+
+13
+00:00:29,308 --> 00:00:32,255
+project PY. At the top of the file
+
+14
+00:00:32,255 --> 00:00:34,465
+I define the valuation date, price,
+
+15
+00:00:34,465 --> 00:00:36,307
+diluted shares, whack, terminal growth,
+
+16
+00:00:36,307 --> 00:00:39,099
+and operating cash flow. The
+
+17
+00:00:39,099 --> 00:00:41,442
+personalized drivers are revenue growth,
+
+18
+00:00:41,442 --> 00:00:43,786
+growth margin, SGNA, working capital
+
+19
+00:00:43,786 --> 00:00:46,130
+assumptions, depreciation, CapEx, and tax
+
+20
+00:00:46,130 --> 00:00:48,942
+rate. The run model function starts
+
+21
+00:00:48,942 --> 00:00:51,755
+with the fiscal 2025 filing balances
+
+22
+00:00:51,755 --> 00:00:54,099
+forecasts the income statement, links
+
+23
+00:00:54,099 --> 00:00:56,911
+working capital and PPNE to the
+
+24
+00:00:56,911 --> 00:00:59,255
+balance sheet, and calculates operating
+
+25
+00:00:59,255 --> 00:01:02,067
+cash flow in FCFF. It then
+
+26
+00:01:02,067 --> 00:01:04,880
+discounts FCFF to enterprise value. The
+
+27
+00:01:04,880 --> 00:01:07,224
+bridge adds valuation, date-excess cash
+
+28
+00:01:07,224 --> 00:01:10,038
+and subtracts interest. Debt it does not
+
+29
+00:01:10,038 --> 00:01:12,030
+add forecast to your 5 cash.
+
+30
+00:01:14,770 --> 00:01:17,543
+So this is the base output, the five
+
+31
+00:01:17,543 --> 00:01:18,590
+year. Care.
+
+32
+00:01:23,120 --> 00:01:26,008
+This is the base output. The
+
+33
+00:01:26,008 --> 00:01:28,896
+five year forecast reaches revenue of
+
+34
+00:01:28,896 --> 00:01:31,784
+$6.284 billion. EBIT of $896.10 million
+
+35
+00:01:31,784 --> 00:01:34,672
+at FCAFF of $580.99 million. In
+
+36
+00:01:34,672 --> 00:01:37,560
+Year 5, the balance sheet gap
+
+37
+00:01:37,560 --> 00:01:40,448
+and cash flow tie are 0
+
+38
+00:01:40,448 --> 00:01:43,336
+in each year. The base value
+
+39
+00:01:43,336 --> 00:01:46,224
+is $183.18 per diluted share. The
+
+40
+00:01:46,224 --> 00:01:49,112
+sensitivity table ranges from $151.79 at
+
+41
+00:01:49,112 --> 00:01:51,1000
+a 10% whack and 2% terminal.
+
+42
+00:01:52,630 --> 00:01:55,608
+To $233.24 at an 8% whack
+
+43
+00:01:55,608 --> 00:01:58,586
+and 3% terminal growth. Terminal value
+
+44
+00:01:58,586 --> 00:02:01,565
+is 75.1% of enterprise value, which
+
+45
+00:02:01,565 --> 00:02:03,550
+is an important limitation.
+
+46
+00:02:05,300 --> 00:02:08,059
+And then moving on to
+
+47
+00:02:08,059 --> 00:02:10,818
+my ANF sensitivity dot PY,
+
+48
+00:02:10,818 --> 00:02:13,578
+this reproduces my locked change
+
+49
+00:02:13,578 --> 00:02:16,337
+input test when I reduce
+
+50
+00:02:16,337 --> 00:02:19,096
+revenue growth by two percentage
+
+51
+00:02:19,096 --> 00:02:21,855
+points in each forecast year.
+
+52
+00:02:21,855 --> 00:02:24,614
+Year 5 EBIT falls from
+
+53
+00:02:24,614 --> 00:02:27,373
+896.10 million to $812 million.
+
+54
+00:02:27,373 --> 00:02:30,133
+FCFS FCFF falls from 580.99
+
+55
+00:02:30,133 --> 00:02:32,340
+million to $543.41 million.
+
+56
+00:02:32,760 --> 00:02:35,338
+And value per share
+
+57
+00:02:35,338 --> 00:02:37,916
+falls from $183.18 to
+
+58
+00:02:37,916 --> 00:02:40,678
+$173.14. The direction matched
+
+59
+00:02:40,678 --> 00:02:43,440
+my prediction. Here is this
+
+60
+00:02:43,440 --> 00:02:46,230
+one. And then moving on, we're going
+
+61
+00:02:46,230 --> 00:02:48,190
+to move on to peer valuation.
+
+62
+00:02:49,470 --> 00:02:52,056
+Umm this is the pure
+
+63
+00:02:52,056 --> 00:02:54,642
+cross check. I selected AEO
+
+64
+00:02:54,642 --> 00:02:57,229
+and Urban URBN under a
+
+65
+00:02:57,229 --> 00:02:59,815
+documented specialty apparel policy. AEO
+
+66
+00:02:59,815 --> 00:03:02,401
+is American Eagle and then
+
+67
+00:03:02,401 --> 00:03:04,470
+Urban is Urban Outfitters.
+
+68
+00:03:05,390 --> 00:03:08,246
+ANF trades 8.64 times EV to
+
+69
+00:03:08,246 --> 00:03:10,626
+EBIT and 14.54 times price-to-earnings
+
+70
+00:03:10,626 --> 00:03:13,482
+versus the peer mean of 11.36
+
+71
+00:03:13,482 --> 00:03:16,338
+times and 15.41 times. I do
+
+72
+00:03:16,338 --> 00:03:19,194
+not average this with the DCF
+
+73
+00:03:19,194 --> 00:03:22,050
+because the peers have different brand
+
+74
+00:03:22,050 --> 00:03:24,430
+portfolios, margins and business models.
+
+75
+00:03:25,750 --> 00:03:28,740
+The highest risk claim remains that ANF
+
+76
+00:03:28,740 --> 00:03:31,304
+can broaden growth across brands while
+
+77
+00:03:31,304 --> 00:03:33,867
+margins recover. This model is tangible,
+
+78
+00:03:33,867 --> 00:03:36,003
+but the operating judgment remains
+
+79
+00:03:36,003 --> 00:03:38,470
+uncertain. Thank you.

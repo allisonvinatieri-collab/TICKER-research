@@ -1,0 +1,223 @@
+1
+00:00:00,070 --> 00:00:02,917
+This is my first video on research
+
+2
+00:00:02,917 --> 00:00:04,950
+evolution and AI output check.
+
+3
+00:00:05,830 --> 00:00:08,763
+So first, I have project 1 edition
+
+4
+00:00:08,763 --> 00:00:11,697
+A and my project one target is
+
+5
+00:00:11,697 --> 00:00:14,211
+Abercrombie and Fitch ticker A&F. My
+
+6
+00:00:14,211 --> 00:00:16,725
+edition A recommendation was watch defer
+
+7
+00:00:16,725 --> 00:00:19,659
+at that point. I saw a constructive
+
+8
+00:00:19,659 --> 00:00:22,592
+net cash balance sheet in fiscal 2025
+
+9
+00:00:22,592 --> 00:00:25,525
+sales growth, but I was concerned that
+
+10
+00:00:25,525 --> 00:00:28,459
+the growth was not broad based. Hollister
+
+11
+00:00:28,459 --> 00:00:30,973
+sales grew 15% while Abercrombie sales
+
+12
+00:00:30,973 --> 00:00:33,720
+declined by 1%. And operating
+
+13
+00:00:33,720 --> 00:00:35,800
+margin declined by 13.3%.
+
+14
+00:00:37,190 --> 00:00:38,870
+There is she.
+
+15
+00:00:46,070 --> 00:00:48,854
+And then next I will be moving
+
+16
+00:00:48,854 --> 00:00:51,637
+on to my research evolution doc, which
+
+17
+00:00:51,637 --> 00:00:54,418
+is right here. So
+
+18
+00:00:54,418 --> 00:00:56,709
+my final recommendation remains watch
+
+19
+00:00:56,709 --> 00:00:59,457
+differ but the evidence behind it
+
+20
+00:00:59,457 --> 00:01:02,206
+changed materially. I built a linked
+
+21
+00:01:02,206 --> 00:01:04,955
+five year three statement forecast an
+
+22
+00:01:04,955 --> 00:01:07,703
+FCFF valuation instead of relying on
+
+23
+00:01:07,703 --> 00:01:10,452
+separate DCF outputs. I also set
+
+24
+00:01:10,452 --> 00:01:13,201
+1 valuation date which was September
+
+25
+00:01:13,201 --> 00:01:15,949
+9th, 2026 and one diluted share
+
+26
+00:01:15,949 --> 00:01:18,240
+base of 44.864 million shares.
+
+27
+00:01:19,120 --> 00:01:21,197
+The most consequential model correction
+
+28
+00:01:21,197 --> 00:01:24,105
+was the enterprise to equity bridge by
+
+29
+00:01:24,105 --> 00:01:26,598
+development model added projected Year 5
+
+30
+00:01:26,598 --> 00:01:29,506
+cash to enterprise value. That was not
+
+31
+00:01:29,506 --> 00:01:31,583
+appropriate because the FCFF already
+
+32
+00:01:31,583 --> 00:01:33,660
+values future operating cash generation.
+
+33
+00:01:33,660 --> 00:01:36,568
+The final model only adds valuation date,
+
+34
+00:01:36,568 --> 00:01:38,646
+excess cash, cash plus marketable
+
+35
+00:01:38,646 --> 00:01:41,554
+securities, which is less than less than
+
+36
+00:01:41,554 --> 00:01:42,800
+operating cash flow.
+
+37
+00:01:44,670 --> 00:01:46,230
+Here is my research.
+
+38
+00:01:48,790 --> 00:01:51,598
+And then next I'm going to be moving on
+
+39
+00:01:51,598 --> 00:01:53,470
+to my validation and AI use.
+
+40
+00:01:55,750 --> 00:01:58,379
+I use ChatGPT and codecs. After
+
+41
+00:01:58,379 --> 00:02:01,008
+my edition, a checkpoint for code
+
+42
+00:02:01,008 --> 00:02:02,761
+review, research, organization, and
+
+43
+00:02:02,761 --> 00:02:04,952
+drafting support. One Ai-assisted output
+
+44
+00:02:04,952 --> 00:02:07,582
+I checked was the cash bridge.
+
+45
+00:02:07,582 --> 00:02:10,211
+I corrected it using the FCFF
+
+46
+00:02:10,211 --> 00:02:12,840
+definition and documented the before and
+
+47
+00:02:12,840 --> 00:02:15,469
+after effect. The base value change
+
+48
+00:02:15,469 --> 00:02:18,099
+from the development output of $233.01
+
+49
+00:02:18,099 --> 00:02:20,728
+to $183.18 per diluted share. The
+
+50
+00:02:20,728 --> 00:02:22,919
+final evidence supports watch defer
+
+51
+00:02:22,919 --> 00:02:25,586
+rather than initiation the valu. Adjust
+
+52
+00:02:25,586 --> 00:02:27,962
+potential value, but the forecast still
+
+53
+00:02:27,962 --> 00:02:30,338
+depends on broadening growth and marginal
+
+54
+00:02:30,338 --> 00:02:32,714
+recovery that has not yet been
+
+55
+00:02:32,714 --> 00:02:35,550
+demonstrated. And here is my.
+
+56
+00:02:36,430 --> 00:02:38,470
+Validation results. Thank you.
