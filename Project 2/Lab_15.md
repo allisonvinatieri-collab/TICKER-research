@@ -98,31 +98,24 @@ Before adoption, I would need a mandate-approved return objective, confirmation 
 
 ## App and debugging record
 
-The Streamlit app is in `app.py` and runs with:
+The Streamlit app is in `Lab_15_app.py` and runs with:
 
 ```powershell
-streamlit run app.py
+streamlit run Lab_15_app.py
 ```
 
-The initial command and error were:
-
-```text
-python portfolio.py
-can't open file 'C:\Users\allis\fin43900-ai-finance\portfolio.py': [Errno 2] No such file or directory
-```
-
-The workspace file was named `lab_14_portfolio.py`. A small `portfolio.py` compatibility launcher now runs that Lab 14 engine.
+An earlier run from the wrong folder produced a file-not-found error. The current Lab 15 engine is `Lab_15_portfolio.py`; it reuses the Lab 14 engine in `lab_14_portfolio.py`.
 
 ## Paper app sketch
 
-Complete this portion on paper: draw one box each for `prices.csv`, monthly returns, annualized historical return/covariance estimates, mandate controls, 5% allocation search, and the displayed recommendation. Draw arrows from the return-objective and BIL-minimum controls into the allocation search. Show the sketch to a partner.
+Complete this portion on paper: draw one box each for `Lab_15_prices.csv`, monthly returns, annualized historical return/covariance estimates, mandate controls, 5% allocation search, and the displayed recommendation. Draw arrows from the return-objective and BIL-minimum controls into the allocation search. Show the sketch to a partner.
 
 ## Lab 15 app flowchart
 
 ```mermaid
 flowchart TD
-    A[Meridian inputs in portfolio.py] --> C[Select input source]
-    B[prices.csv: Date first, oldest first] --> C
+    A[Meridian inputs in Lab_15_portfolio.py] --> C[Select input source]
+    B[Lab_15_prices.csv: Date first, oldest first] --> C
     C --> D[Monthly returns]
     D --> E[Annual return, volatility, correlation estimates]
     F[Objective control] --> H[5% long-only allocation search]

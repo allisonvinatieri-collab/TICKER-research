@@ -18,7 +18,7 @@ This is a classroom exercise, not investment advice. The return objective is a t
 
 ## Price-data record
 
-`prices.csv` contains 60 monthly **Adj Close** observations, oldest month first. Adjusted close is used because it reflects distributions.
+`Lab_15_prices.csv` contains 60 monthly **Adj Close** observations, oldest month first. Adjusted close is used because it reflects distributions.
 
 | Ticker | Source | Download date |
 |---|---|---|
@@ -27,7 +27,7 @@ This is a classroom exercise, not investment advice. The return objective is a t
 | LQD | Yahoo Finance, Historical Data (monthly Adj Close) | 2026-10-20 |
 | VT | Yahoo Finance, Historical Data (monthly Adj Close) | 2026-10-20 |
 
-To reproduce the download, run `python download_prices.py` from this folder. The script retrieves Yahoo Finance monthly adjusted closes and retains the latest 60 common months.
+To reproduce the download, run `python Lab_15_download_prices.py` from this folder. The script retrieves Yahoo Finance monthly adjusted closes and retains the latest 60 common months.
 
 ## Streamlit data flow
 

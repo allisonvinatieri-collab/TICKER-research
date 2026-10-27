@@ -3,7 +3,7 @@
 import pandas as pd
 import streamlit as st
 
-from portfolio import (
+from Lab_15_portfolio import (
     CORRELATION,
     OBJECTIVE_RETURN,
     RESERVE_ELIGIBLE,
@@ -34,7 +34,7 @@ st.caption("Built with AI help, a learning demonstration, not investment advice.
 st.sidebar.header("Mandate controls")
 objective = st.sidebar.number_input("Objective", 0.0, 1.0, float(OBJECTIVE_RETURN), 0.005, format="%.3f")
 reserve_minimum = st.sidebar.number_input("Minimum reserve-eligible weight", 0.0, 1.0, 0.03, 0.01, format="%.2f")
-uploaded_file = st.sidebar.file_uploader("Your prices.csv", type="csv")
+uploaded_file = st.sidebar.file_uploader("Your Lab_15_prices.csv", type="csv")
 last_36 = st.sidebar.toggle("Use last 36 months", value=False)
 
 try:
